@@ -1,0 +1,44 @@
+[
+    {
+        "id": "208fa7c0-2dae-4453-a5fc-abf52c5996ce",
+        "title": "My second meeting",
+        "description": "Discuss project status",
+        "start_time": "2025-07-01 12:00",
+        "end_time": "2025-07-01 2:00"
+    },
+    {
+        "id": "3afe0a46-9d14-40a6-860d-80e21103e58f",
+        "title": "My third meeting",
+        "description": "Discuss Solutions",
+        "start_time": "2025-07-01 3:00",
+        "end_time": "2025-07-01 5:00"
+    },
+    {
+        "id": "92ab06db-f3df-40ba-ba42-6914b2b1b133",
+        "title": "My Todays Schedule",
+        "description": "Java Basics",
+        "start_time": "2025-07-01 8:00",
+        "end_time": "2025-07-01 10:00"
+    },
+    {
+        "id": "44cc7feb-6fc8-4072-84ae-b0b18fe33f27",
+        "title": "My Todays Schedule",
+        "description": "Java Basics",
+        "start_time": "2025-07-01 8:00",
+        "end_time": "2025-07-01 10:00"
+    },
+    {
+        "id": "bad32abc-afb8-4f94-8025-a5ccd1c3eb2b",
+        "title": "Completed",
+        "description": "Completed Java",
+        "start_time": "2025-07-01 8:00",
+        "end_time": "2025-07-01 10:00"
+    },
+    {
+        "id": "66101b6c-0795-47d3-ad29-9f92f8c8cd35",
+        "title": "My Todays Schdule",
+        "description": "SQL",
+        "start_time": "2025-07-01 11:00",
+        "end_time": "2025-07-01 1:00"
+    }
+]

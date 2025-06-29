@@ -1,0 +1,119 @@
+{
+	"info": {
+		"_postman_id": "72b71d59-9a64-4b30-a6ef-2663be4767f7",
+		"name": "Event_Schduler_System",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23173196",
+		"_collection_link": "https://speeding-zodiac-755936.postman.co/workspace/event_scheduler~7febc071-49de-49ba-a5fb-d400d30e4e36/collection/23173196-72b71d59-9a64-4b30-a6ef-2663be4767f7?action=share&source=collection_link&creator=23173196"
+	},
+	"item": [
+		{
+			"name": "Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/events",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"events"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"My Todays Schdule\",\r\n  \"description\": \"Java Basics\",\r\n  \"start_time\": \"2025-07-01 8:00\",\r\n  \"end_time\": \"2025-07-01 10:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/events",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"events"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Completed\",\r\n  \"description\": \"Completed Java\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/events/bad32abc-afb8-4f94-8025-a5ccd1c3eb2b",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"events",
+						"bad32abc-afb8-4f94-8025-a5ccd1c3eb2b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/events/afe0a46-9d14-40a6-860d-80e21103e58f",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"events",
+						"afe0a46-9d14-40a6-860d-80e21103e58f"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
